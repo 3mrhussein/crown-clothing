@@ -2,7 +2,7 @@ body {
   font-family: 'Open Sans Condensed';
   font-weight: 600;
   font-size: large;
-  padding: 10px;
+  padding: 0 10px 0 10px;
   white-space: nowrap;
   /* background-color: black; */
 }

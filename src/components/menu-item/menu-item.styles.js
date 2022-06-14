@@ -5,7 +5,7 @@ export const MenuItemContainer = styled.div`
     width: 30%;
   }
   width: 100%;
-  height: 240px;
+  height: 200px;
   display: flex;
   flex: 1 1 auto;
   align-items: center;
@@ -23,7 +23,7 @@ export const MenuItemContainer = styled.div`
   }
   &.large {
     @media (min-width: 700px) {
-      height: 380px;
+      height: 250px;
     }
   }
 `;
