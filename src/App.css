@@ -1,0 +1,17 @@
+body {
+  font-family: 'Open Sans Condensed';
+  font-weight: 600;
+  font-size: large;
+  padding: 10px;
+  white-space: nowrap;
+  /* background-color: black; */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
