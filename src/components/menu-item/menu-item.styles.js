@@ -13,7 +13,8 @@ export const MenuItemContainer = styled.div`
   border: 1px solid black;
   margin: 0 7.5px 15px;
   overflow: hidden;
-
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px gray;
   &:hover {
     cursor: pointer;
 
@@ -51,6 +52,8 @@ export const MenuItemContentContainer = styled.div`
   background-color: white;
   opacity: 0.7;
   position: absolute;
+  box-shadow: 1px 1px 3px white;
+  border-radius: 10px;
   .title {
     font-weight: bold;
     margin-bottom: 6px;
