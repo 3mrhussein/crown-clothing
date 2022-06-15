@@ -13,22 +13,23 @@ export const ModalBackground = styled.div`
 
 export const ModalContainer = styled.div`
   background-color: white;
-  width: 50%;
-  /* height: 70%; */
+  width: 450px;
+  height: 400px;
   opacity: 1;
   flex: 0 0 0;
   border-radius: 10px;
   position: fixed;
   z-index: 20;
-  top: 15%;
-  left: 25%;
+  top: 50%;
+  left: 50%;
+  margin: -200px auto auto -225px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   box-shadow: 1px 1px 2px gray;
   @media (max-width: 700px) {
-    width: 80%;
-    left: 10%;
+    width: 400px;
+    margin: -200px auto auto -200px;
   }
 `;
