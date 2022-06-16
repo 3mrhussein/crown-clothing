@@ -3,6 +3,14 @@ import styled from 'styled-components';
 export const SignInFormContainer = styled.div`
   display: flex;
   flex-direction: column;
+  flex: 1;
+  font-size: medium;
+  h1 {
+    font-size: 28px;
+    @media (max-width: 400px) {
+      font-size: 24px;
+    }
+  }
   p {
     span {
       color: #1177dd;
@@ -17,6 +25,6 @@ export const SignInFormContainer = styled.div`
 
 export const SignInButtonsContainer = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 `;

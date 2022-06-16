@@ -23,4 +23,19 @@ export const SignInFormContainer = styled.div`
   border-radius: 5px;
   box-shadow: 1px 1px 5px #888888;
   padding: 20px;
+  margin: 10px;
+  flex: 0 1 auto;
+  /* @media (max-width: 500px) {
+    width: 98%;
+    h1 {
+      font-size: medium;
+    }
+    span {
+      font-size: small;
+    }
+    p {
+      font-size: small; */
+    }
+  }
+  background-color: red;
 `;

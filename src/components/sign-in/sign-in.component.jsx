@@ -43,9 +43,7 @@ const SignIn = ({ emailSignInStart, googleSignInStart }) => {
         </Modal>
       ) : null}
       <h1>Already have an account</h1>
-      <span style={{ fontSize: 'medium' }}>
-        Sign in With your email and password
-      </span>
+      <span>Sign in With your email and password</span>
       <form onSubmit={handleSubmit}>
         <FormInput
           type="email"
@@ -65,7 +63,7 @@ const SignIn = ({ emailSignInStart, googleSignInStart }) => {
           handleChange={handleChange}
         />
 
-        <p style={{ fontSize: 'medium ' }}>
+        <p>
           Dont have and account ?{' '}
           <span onClick={() => setShowSignupModal(true)}> SignUp</span>{' '}
         </p>
