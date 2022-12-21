@@ -5,6 +5,8 @@ body {
   padding: 0 10px 0 10px;
   white-space: nowrap;
   /* background-color: black; */
+  max-width: 1500px;
+  margin: auto;
 }
 
 a {

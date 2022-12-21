@@ -25,17 +25,4 @@ export const SignInFormContainer = styled.div`
   padding: 20px;
   margin: 10px;
   flex: 0 1 auto;
-  /* @media (max-width: 500px) {
-    width: 98%;
-    h1 {
-      font-size: medium;
-    }
-    span {
-      font-size: small;
-    }
-    p {
-      font-size: small; */
-    }
-  }
-  background-color: red;
 `;

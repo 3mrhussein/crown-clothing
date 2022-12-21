@@ -1,16 +1,9 @@
 import React from 'react';
 import './checkout-cart-item.styles.scss';
 import { connect } from 'react-redux';
-import {
-  clearItemFromCart,
-  removeItemFromCart,
-  addCartItem,
-} from '../../redux/cart/cart.actions';
+import { clearItemFromCart, removeItemFromCart, addCartItem } from '../../redux/cart/cart.actions';
 import { CheckoutTableItemContainer } from './checkout-cart-item.styles';
-import {
-  CheckoutPageTableHeadCell,
-  CheckoutPageTableRow,
-} from '../../pages/checkout/checkout.styles';
+import { CheckoutPageTableRow } from '../../pages/checkout/checkout.styles';
 
 const CheckoutCartItem = ({ item, clearItem, removeItem, addItem }) => (
   <CheckoutPageTableRow>
