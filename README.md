@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Project Overview
+This project is an e-commerce website built for my personal portfolio. It includes features such as viewing shopping items from various sections, like men's, women's, hats, sneakers, and more. The website also includes a cart and payment feature using Stripe. The app is built with [Create React App](https://create-react-app.dev/), [Firebase](https://firebase.google.com/) for authentication and [Firestore](https://firebase.google.com/docs/firestore) for cloud data. The project also uses [React Router](https://reactrouter.com/) for client-side routing, [Redux](https://redux.js.org/) for state management, [Axios](https://github.com/axios/axios) for API requests, [Styled Components](https://styled-components.com/) and [Sass](https://sass-lang.com/) for styling. This website is fully mobile responsive and user-friendly.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started
 
-## Available Scripts
+To get started with the project, clone the repository and install the dependencies:
 
-In the project directory, you can run:
+`git clone https://github.com/<your-username>/<repo-name>.git`
 
-### `yarn start`
+`cd <repo-name>`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+`npm install`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Then, you can start the development server by running:
 
-### `yarn test`
+`npm start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This will start the development server on [http://localhost:3000](http://localhost:3000) and you can view the project in your browser.
 
-### `yarn build`
+## Built With
+- [Create React App](https://create-react-app.dev/)
+- [Firebase](https://firebase.google.com/)
+- [Firestore](https://firebase.google.com/docs/firestore)
+- [React Router](https://reactrouter.com/)
+- [Redux](https://redux.js.org/)
+- [Axios](https://github.com/axios/axios)
+- [Styled Components](https://styled-components.com/)
+- [Sass](https://sass-lang.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="https://user-images.githubusercontent.com/34787413/213048689-d86a8ace-7dec-4538-8d6a-af5a1a1e685d.png" alt="E-commerce Screenshot" style="max-width: 80%;">
+<img src="https://user-images.githubusercontent.com/34787413/213049571-7244bcdb-2fc7-40b9-9397-3c8e42107ba9.png" alt="Shop Section Screenshot" style="max-width: 80%;">
+<img src="https://user-images.githubusercontent.com/34787413/213049975-a6eb5452-690f-43ca-9d0c-d838c1c7af1c.png" alt="Cart Screenshot" style="max-width: 80%;">
+<img src="https://user-images.githubusercontent.com/34787413/213050247-27fda6bb-b75a-4dc0-bc30-6708bac77504.png" alt="Payment Screenshot" style="max-width: 80%;">
+<img src="https://user-images.githubusercontent.com/34787413/213051111-d217de6a-9485-4033-9719-62a974c3dda0.png" alt="Register Screenshot" style="max-width: 80%;">
+<img src="https://user-images.githubusercontent.com/34787413/213051342-5c132419-8b73-4796-becc-27a1f2880c61.png" alt="Mobile Responsive" style="max-width: 80%;">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Live Link
 
-### `yarn eject`
+You can view the live version of the website at [https://crown-clothing-two-beryl.vercel.app/shop](https://crown-clothing-two-beryl.vercel.app/shop)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Note
